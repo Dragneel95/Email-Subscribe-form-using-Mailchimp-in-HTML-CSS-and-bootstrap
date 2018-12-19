@@ -1,0 +1,62 @@
+
+body {
+	background-image: url(backdrop.jpg);
+	background-size: cover;
+}
+
+.heading {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	font-family: 'Charm', cursive;
+	font-weight: bold;
+	font-size: 50px;
+	text-decoration: underline;
+	margin-top: 50px;
+	cursor: pointer;
+	color: black;
+	
+
+}
+
+
+.container {
+	text-align: center;
+	margin-top: 200px;
+	font-family: 'Charm', cursive;
+	font-weight: bold;
+	font-size: 50px;
+
+	
+	
+	
+
+
+
+}
+
+
+
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Charm', cursive;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: black;
+  border-color: black; }
+
+.btn-primary:hover {
+  background-color: #17202A;
+  border-color: #17202A;
+  border-width: 5px;
+  box-shadow: 2px 2px 2px 2px #17202A;
+  cursor: pointer;
+}
